@@ -3,3 +3,51 @@ body {
   height: 100%;
   margin: 0;
 }
+h1{
+  color: maroon;
+  text-align: center;
+}
+nav{
+  text-align: center;
+}
+nav a {
+  padding: 0px 10px 0px 10px;
+  text-align: center;
+  color: aliceblue;
+  background-color: salmon;
+}
+ 
+
+.container
+{
+    display:-webkit-inline-flex;
+    justify-content: center; /* Horizontally center */
+    align-items: center; /* Vertically center */
+    height: 100vh; /* Full viewport height */
+}
+#caption{
+  text-align: center;
+  font-size: small;
+}
+
+#featured-property{
+  text-align: center;
+  padding:  0px 400px 0px 400px;
+
+}
+
+#details{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#details div{
+  float:left;
+  background-color: #f0f0f0;
+  text-align: center;
+  padding:  0px 20px 0px 20px;
+}
+
+
+
